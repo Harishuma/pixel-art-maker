@@ -10,21 +10,20 @@
     height: 10px;
     width: 10px;
     border: 0.25px solid grey;
-    background-color: antiquewhite;
+    background-color: white;
 }
 
-.redcolorPalette{
+.coloredPalette{
     height: 20px;
     width: 20px;
-    background-color: red;
+    border-radius: 50px;
     display: flex;
     flex-direction: row;
 }
 
-.bluecolorPalette{
+.currentColor{
     height: 20px;
     width: 20px;
-    background-color: blue;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
